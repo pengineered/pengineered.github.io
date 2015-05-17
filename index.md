@@ -53,7 +53,7 @@ title: "Justin Lee"
       	<div class='home center'>
           <a href='/home' class='animsition-link'>
               <div class='hom fade'>hom</div>
-              <div class='e'>e</div>
+              <div class='e name'>e</div>
           </a>
         </div>
       	<div class='resume center'>
