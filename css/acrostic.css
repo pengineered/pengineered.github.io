@@ -52,10 +52,12 @@ a:hover:before {
 .j, .u, .s, .t, .i, .n{
   /*color: #1F4788;*/
   color: #A39082;
+  background-color: #0f0f0f;
 }
 .l, .e, .e2{
   /*color: #003171;*/
   color: #946E4F;
+  background-color: #0f0f0f;
 }
 
 .wrapper{
@@ -113,9 +115,8 @@ a:hover:before {
 }
 
 .home{
-  background-color: #0f0f0f;
-  width: 2.37rem;
-  padding-left: 0.7rem;
+  width: 2.48rem;
+  padding-right: 1.85rem;
 }
 
 .fade{
