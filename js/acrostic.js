@@ -67,3 +67,9 @@ $(".blog > a").hover(function(){
    		}, function(){
    		$(".l").css("color", "#946E4F");
 });
+
+$(".home > a").hover(function(){
+      $(".e").css("color", "#000");
+      }, function(){
+      $(".e").css("color", "#A39082");
+});
