@@ -1,7 +1,6 @@
 ---
 layout: bare
 permalink: /
-title: "Justin Lee"
 ---
 
 <html>
