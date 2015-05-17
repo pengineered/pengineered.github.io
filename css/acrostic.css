@@ -1,0 +1,137 @@
+html{
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5vh;
+  font-weight: 300;
+}
+
+body{
+	/*background-color: #4B77BE;*/
+  background-color: #E2DFDA;
+}
+
+a{
+  text-decoration:none;
+  /*color: #424242;*/
+  color: #15161F;
+  /*background-color: #E2DFDA;*/
+  -webkit-transition: background-color 350ms ease-out;
+  -moz-transition: background-color 350ms ease-out;
+  -o-transition: background-color 350ms ease-out;
+  transition: background-color 350ms ease-out;
+}
+
+a:hover, a:active{
+  background-color: #A7997E;
+  color: #E4E4E4;
+}
+
+a:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #15161F;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+.j, .u, .s, .t, .i, .n{
+  /*color: #1F4788;*/
+  color: #A39082;
+}
+.l, .e, .e2{
+  /*color: #003171;*/
+  color: #946E4F;
+}
+
+.wrapper{
+  background-color: #E2DFDA;
+  /*background-color: #0f0f0f;*/
+  width: 50vw;
+  height: 57vh;
+  margin: auto;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.wrapper > div *{
+  float: left;
+  display: inline-block;
+  position: relative;
+}
+
+
+.name{
+  width: 0.6rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.about, .contact, .resume, .projects, .blog, .u, .s, .i, .n, .e{
+  display: block;
+  height: auto;
+  position: relative;
+}
+
+.about{
+  width: 2.8rem;
+  padding-right: 2.02rem;
+}
+
+.contact{
+  width: 3.2rem;
+  padding-left: 0.625rem;
+}
+
+.resume{
+  width: 3.2rem;
+  padding-left: 1.975rem;
+}
+
+.projects{
+  width: 3.8rem;
+  padding-left: 0.42rem;
+}
+
+.blog{
+  width: 2.2rem;
+  padding-left: 0.5rem;
+}
+
+.fade{
+  opacity: 0;
+}
+
+.center{
+  overflow: auto;
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.animsition{
+	width: 100%;
+  height: 98.363249vh;
+}
+
+
+
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+
+.wrapper{
+  width: 50vw;
+  height: 60vh;
+}

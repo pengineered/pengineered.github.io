@@ -1,0 +1,26 @@
+# Site navigation links
+
+- title: Projects
+  url: /projects
+  excerpt:
+  image:
+
+- title: Blog
+  url: /blog
+  excerpt:
+  image:
+
+- title: About
+  url: /about
+  excerpt:
+  image:
+
+- title: Resume
+  url: /resume
+  excerpt:
+  image:
+
+- title: Contact
+  url: /contact
+  excerpt:
+  image:
