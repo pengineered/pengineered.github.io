@@ -7,15 +7,12 @@ html{
 }
 
 body{
-	/*background-color: #4B77BE;*/
   background-color: #E2DFDA;
 }
 
 a{
   text-decoration:none;
-  /*color: #424242;*/
   color: #15161F;
-  /*background-color: #E2DFDA;*/
   -webkit-transition: background-color 350ms ease-out;
   -moz-transition: background-color 350ms ease-out;
   -o-transition: background-color 350ms ease-out;
@@ -50,19 +47,14 @@ a:hover:before {
 
 
 .j, .u, .s, .t, .i, .n{
-  /*color: #1F4788;*/
   color: #A39082;
-  background-color: #0f0f0f;
 }
 .l, .e, .e2{
-  /*color: #003171;*/
   color: #946E4F;
-  background-color: #0f0f0f;
 }
 
 .wrapper{
   background-color: #E2DFDA;
-  /*background-color: #0f0f0f;*/
   width: 50vw;
   height: 57vh;
   margin: auto;
@@ -116,7 +108,7 @@ a:hover:before {
 
 .home{
   width: 2.48rem;
-  padding-right: 1.85rem;
+  padding-right: 1.87rem;
 }
 
 .fade{
