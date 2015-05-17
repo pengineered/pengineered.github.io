@@ -8,7 +8,7 @@ share: false
 <form action="https://getsimpleform.com/messages?form_api_token=93f29171f01c720257c7ba107ab9f888" method="post">
 
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://localhost:4000/contact/success/' />
+  <input type='hidden' name='redirect_to' value='https://pengineered.github.io/contact/success/' />
 
   <!-- all your input fields here.... -->
   <h3>Name</h3>
