@@ -50,7 +50,12 @@ title: "Justin Lee"
                 <div class='og fade'>og</div>
             </a>
         </div>
-      	<div class='e name center'>e</div>
+      	<div class='home center'>
+          <a href='/home' class='animsition-link'>
+              <div class='hom fade'>hom</div>
+              <div class='e'>e</div>
+          </a>
+        </div>
       	<div class='resume center'>
         	<a href='/resume' class='animsition-link'>
           		<div class='r fade'>r</div>
