@@ -1,6 +1,7 @@
 ---
 layout: bare
 permalink: /
+title: "Welcome!"
 ---
 
 <html>

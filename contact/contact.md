@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /contact/
-title: "Contact me"
+title: "Contact"
 share: false
 ---
 

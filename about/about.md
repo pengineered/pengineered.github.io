@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /about/
-title: "About Justin"
+title: "About Me"
 ---
 
 Hi this is a demo 
