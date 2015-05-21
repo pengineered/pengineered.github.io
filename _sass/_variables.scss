@@ -26,8 +26,10 @@ $black                        : #000;
 
 $bg-color                     : #E2DFDA;
 
-$nav-color: #A39082;
-$nav-hover: #A7997E;
+$main-brown                   : #A7997E;
+
+$nav-color                    : #A39082;
+$nav-hover                    : $main-brown;
 
 $body-color                  	: #ebebeb;
 
@@ -37,7 +39,7 @@ $caption-color                : mix($white, $text-color, 25%);
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
-$link-color                  	: #222;
+$link-color                  	: $main-brown;
 
 $primary-color               	: $black;
 $success-color               	: #2ecc71;

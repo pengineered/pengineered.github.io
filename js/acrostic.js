@@ -56,11 +56,6 @@ $(".contact > a").hover(function(){
         $(".n").css("color", "#A39082");
 });
 
-$(".resume > a").hover(function(){
-   		$(".e2").css("color", "#000");
-   		}, function(){
-   		$(".e2").css("color", "#946E4F");
-});
 
 $(".blog > a").hover(function(){
    		$(".l").css("color", "#000");
@@ -71,5 +66,11 @@ $(".blog > a").hover(function(){
 $(".home > a").hover(function(){
       $(".e").css("color", "#000");
       }, function(){
-      $(".e").css("color", "#A39082");
+      $(".e").css("color", "#946E4F");
+});
+
+$(".resume > a").hover(function(){
+      $(".e2").css("color", "#000");
+      }, function(){
+      $(".e2").css("color", "#946E4F");
 });
