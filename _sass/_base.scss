@@ -82,7 +82,7 @@ a{
 
 	&:hover,
 	&:active {
-		background: $link-color;
+		background: lighten($link-color, 20);
 	}
 }
 
