@@ -59,10 +59,10 @@ ins {
 
 /* Links */
 
-/*a {
+a {
 	color: $link-color;
 	&:hover {
-		color: darken($link-color, 20);
+		color: darken($link-originalcolor, 20);
 	}
 	&:focus {
 		@extend %tab-focus;
@@ -71,15 +71,14 @@ ins {
 	&:active {
 		outline: 0;
 	}
-}*/
+}
 
 a{
-	text-decoration:none;
+	text-decoration: none;
 	border-bottom: 2px solid $link-color;
 	box-shadow: inset 0 -4px 0 #ef8b80;
 	color: inherit;
 	transition: background 0.1s cubic-bezier(.33,.66,.66,1);
-	@include transition(background-color 0.5s);
 
 	&:hover,
 	&:active {
