@@ -32,6 +32,14 @@
 	@include font-size(35,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+
+	border-bottom: none;
+	box-shadow: none;
+
+	&:hover,
+	&:active{
+		background-color: none;
+	}
 }
 
 

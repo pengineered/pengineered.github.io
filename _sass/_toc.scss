@@ -37,6 +37,8 @@
       &:focus {
         background: mix($white, $border-color, 5%);
       }
+      border-bottom: none;
+      box-shadow: none;
     }
   }
   h6 {
