@@ -37,7 +37,7 @@
       &:focus {
         background: mix($white, $border-color, 5%);
       }
-      border-bottom: none;
+      border-bottom: medium none transparent;
       box-shadow: none;
     }
   }
