@@ -33,7 +33,7 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 
-	border-bottom: none;
+	border-bottom: medium none transparent;
 	box-shadow: none;
 
 	&:hover,
@@ -65,7 +65,7 @@
 			height: $masthead-height;
 			font-family: $alt-font;
 
-			border-bottom: none;
+			border-bottom: medium none transparent;
 			box-shadow: none;
 
 			&:before,
@@ -125,7 +125,7 @@
 
 			@include transition(color 0.6s);
 
-			border-bottom: none;
+			border-bottom: medium none transparent;
 			box-shadow: none;
 
 			&:active,
@@ -146,7 +146,7 @@
 	a {
 		color: lighten($black,60);
 
-		border-bottom: none;
+		border-bottom: medium none transparent;
 		box-shadow: none;
 
 		@include transition(background 0.6s);
@@ -213,8 +213,7 @@
 				border-bottom-width: 0;
 			}
       .toc li > a {
-        border-bottom-width: 0;
-        border-bottom: none;
+        border-bottom: medium none transparent;
 		box-shadow: none;
 
       }
@@ -389,7 +388,7 @@
 		a {
 			color: lighten($black,60);
 			text-decoration: none;
-			border-bottom: none;
+			border-bottom: medium none transparent;
 			box-shadow: none;
 
 			&:active,
