@@ -38,7 +38,7 @@
 
 	&:hover,
 	&:active{
-		background-color: none;
+		background-color: transparent;
 	}
 }
 
@@ -131,7 +131,7 @@
 			&:active,
 			&:hover {
 				color: $nav-hover;
-				background: none;
+				background: transparent;
 			}
 
 		}
@@ -217,10 +217,6 @@
         border-bottom: none;
 		box-shadow: none;
 
-		&:active,
-		&:hover {
-			background: none;
-		}
       }
 			.page-footer,
 			.pagination {
@@ -398,7 +394,7 @@
 
 			&:active,
 			&:hover {
-				background: none;
+				background: transparent;
 			}
 		}
 	}
