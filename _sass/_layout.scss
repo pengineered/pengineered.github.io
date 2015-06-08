@@ -415,20 +415,7 @@
 
 }
 
-article{
-	h2{
-		a{
-			border-bottom: medium none transparent;
-			box-shadow: none;
-
-			&:active,
-			&:hover {
-				background: transparent;
-			}
-		}
-	}
-}
-
+article>h2>a,
 .breadcrumbs a{
 	border-bottom: medium none transparent;
 	box-shadow: none;
