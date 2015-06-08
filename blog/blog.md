@@ -1,5 +1,5 @@
 ---
-layout: Archive
+layout: archive
 permalink: /blog/
 title: "Blog"
 ---
