@@ -3,7 +3,7 @@
 title: Justin Lee
 description:
 logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+teaser: teaser.gif# 400x250 px default teaser image used in image archive grid
 locale:
 url: https://pengineered.github.io
 
@@ -23,13 +23,13 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
+  name: Justin Lee
+  email: leejustinwill@gmail.com
   twitter:
   google:
     ad-client: 
     ad-slot: 
-  bio: 
+  bio: Engineer. Pen enthusiast. Likes food and sleep.
   avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 
