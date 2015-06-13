@@ -404,7 +404,8 @@
    Misc. fixes for highlight underline effect problem
    ========================================================================== */
 
-.post-teaser{
+.post-teaser,
+.menu-item>li>a{
 	border-bottom: medium none transparent;
 	box-shadow: none;
 
@@ -422,9 +423,4 @@ article>h2>a,
 	&:hover {
 		background: $nav-hover;
 	}
-}
-
-.menu-item>li>a{
-	border-bottom: medium none transparent;
-	box-shadow: none;
 }
