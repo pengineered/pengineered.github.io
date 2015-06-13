@@ -11,6 +11,6 @@ share: false
 
 Hi! I'm Justin. Please do excuse the poor lanyard-work. 
 
-As a doofus, daydreamer, and incoming [North Avenue Trade School](http://www.gatech.edu "Georgia Tech") freshman, I'll be documenting [my attempts to learn physics the hard way](/projects), or [anything else](/blog) that comes to mind.
+As a doofus, daydreamer, and incoming [North Avenue Trade School](http://www.gatech.edu "Georgia Tech") freshman, I'll be documenting [my tragic attempts to learn physics the hard way](/projects), or [anything else](/blog) that comes to mind.
 
 #####Note: This website is currently under construction. I promise that I'll cough up more about myself later.
