@@ -412,24 +412,27 @@
    Misc. fixes for highlight underline effect problem
    ========================================================================== */
 
-.post-teaser,
+article>h2>a,
+.breadcrumbs a,
+.post-title a,
 .menu-item>li>a{
 	border-bottom: medium none transparent;
 	box-shadow: none;
-
-	&:active,
-	&:hover {
-		background: transparent;
-	}
-
 }
 
 article>h2>a,
 .breadcrumbs a{
-
 	&:active,
 	&:hover {
 		background: $nav-hover;
+	}
+}
+
+.post-title a,
+.menu-item>li>a{
+	&:active,
+	&:hover {
+		background: transparent;
 	}
 }
 
