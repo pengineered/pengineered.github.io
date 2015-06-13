@@ -9,8 +9,8 @@ share: false
 
 *Photo credit: [Greg Perko](http://www.perkophoto.com/) and [MIT OEOP](http://oeop.mit.edu/)* 
 
-Hi! I'm Justin.
+Hi! I'm Justin. Please do excuse the poor lanyard-work. 
 
-As a self-proclaimed **doofus**, **daydreamer**, and former **Lego fanatic**, I've always wanted to *make cool things*. Eventually, I hope to [document](/projects) some of the stuff I may or may not make during my next few years at the [North Avenue Trade School](http://www.gatech.edu "Georgia Tech"). 
+As a doofus, daydreamer, and incoming [North Avenue Trade School](http://www.gatech.edu "Georgia Tech") freshman, I'll be documenting [my attempts to learn physics the hard way](/projects), or [anything else](/blog) that comes to mind.
 
-#####Note: This website is currently under construction. 
+#####Note: This website is currently under construction. I promise that I'll cough up more about myself later.
