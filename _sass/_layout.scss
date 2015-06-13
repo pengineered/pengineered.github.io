@@ -400,6 +400,14 @@
 }
 
 
+.sliding-menu-content .menu-item a{
+	@include transition(color 0.6s);
+	&:active,
+	&:hover{
+		color: #A7997E;
+	}
+}
+
 /*
    Misc. fixes for highlight underline effect problem
    ========================================================================== */
@@ -424,3 +432,5 @@ article>h2>a,
 		background: $nav-hover;
 	}
 }
+
+
