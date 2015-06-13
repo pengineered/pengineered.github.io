@@ -24,14 +24,14 @@ gems:
 # Site owner
 owner:
   name: Justin Lee
-  email: leejustinwill@gmail.com
+  email: j@jwlee.me
   twitter:
   google:
     ad-client: 
     ad-slot: 
   bio: (Soon-to-be) Engineer. Pen enthusiast. Sucks at writing bios.
   avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+disqus-shortname: pengineered
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
