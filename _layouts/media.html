@@ -19,8 +19,9 @@ layout: default
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
 				<hr />
+				<p>{{ tags_content }}</p>
+				<hr />
 				<footer class="page-footer">
-					<p>{{ tags_content }}</p>
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
