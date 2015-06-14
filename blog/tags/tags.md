@@ -1,6 +1,7 @@
 ---
 layout: archive
 permalink: /blog/tags/
+title: "Tags"
 ---
 {% capture tags %}
   {% for tag in site.tags %}
@@ -10,5 +11,5 @@ permalink: /blog/tags/
 {% assign sortedtags = tags | split:' ' | sort %}
 
 {% for tag in sortedtags %}
-  <h3 id="{{ tag }}"><a href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a></h3>
+  <a href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
 {% endfor %}
