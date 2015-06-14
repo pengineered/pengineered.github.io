@@ -1,26 +1,26 @@
 # Site navigation links
 
 - title: Projects
-  url: {{ site.url }}/projects
+  url: /projects/
   excerpt:
   image:
 
 - title: Blog
-  url: {{ site.url }}/blog
+  url: /blog/
   excerpt:
   image:
 
 - title: About
-  url: {{ site.url }}/about
+  url: /about/
   excerpt:
   image:
 
 - title: Resume
-  url: {{ site.url }}/resume
+  url: /resume/
   excerpt:
   image:
 
 - title: Contact
-  url: {{ site.url }}/contact
+  url: /contact/
   excerpt:
   image:
