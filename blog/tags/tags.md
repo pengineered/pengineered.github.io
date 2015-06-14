@@ -11,5 +11,5 @@ title: "Tags"
 {% assign sortedtags = tags | split:' ' | sort %}
 
 {% for tag in sortedtags %}
-  <a href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
+  <a id = "{{ tag }}" href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
 {% endfor %}
