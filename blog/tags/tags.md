@@ -10,10 +10,5 @@ permalink: /blog/tags/
 {% assign sortedtags = tags | split:' ' | sort %}
 
 {% for tag in sortedtags %}
-  <h3 id="{{ tag }}">{{ tag }}</h3>
-  <ul>
-  {% for tag in site.tags[tag] %}
-    <li><a href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a></li>
-  {% endfor %}
-  </ul>
+  <h3 id="{{ tag }}"><a href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a></h3>
 {% endfor %}
