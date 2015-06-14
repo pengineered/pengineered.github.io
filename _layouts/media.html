@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include tagging.html %}
 <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.image.feature %}
@@ -21,6 +21,7 @@ layout: default
 				{{ content }}
 				<hr />
 				<footer class="page-footer">
+					<p id="post-meta">{{ tags_content }}</p>
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
