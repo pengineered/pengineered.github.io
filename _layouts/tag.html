@@ -13,8 +13,7 @@ layout: default
 		</div><!-- /.page-feature -->
 		{% endif %}
 		<div class="page-title">
-			{% assign tag = site.data.tags[page_tag] %}
-			<h1>Tag: {{ tag.name }}</h1>
+			<h1>Tag: {{ page.tag.name }}</h1>
 			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
 		</div>
 		<div class="archive-wrap">
