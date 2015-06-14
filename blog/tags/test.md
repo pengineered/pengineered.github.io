@@ -1,5 +1,5 @@
 ---
 layout: tag
 tag: test
-permalink: /blog/tag/test/
+permalink: /blog/tags/test/
 ---
