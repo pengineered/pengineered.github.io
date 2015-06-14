@@ -59,20 +59,6 @@ ins {
 
 /* Links */
 
-a {
-	color: $link-color;
-	&:hover {
-		color: darken($link-originalcolor, 20);
-	}
-	&:focus {
-		@extend %tab-focus;
-	}
-	&:hover,
-	&:active {
-		outline: 0;
-	}
-}
-
 a{
 	text-decoration: none;
 	border-bottom: 2px solid $link-color;
