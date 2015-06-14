@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /blog/
+permalink: {{ site.url }}/blog/
 title: "Blog"
 ---
 
