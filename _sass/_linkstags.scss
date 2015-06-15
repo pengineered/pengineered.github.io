@@ -9,7 +9,7 @@ a{
 	color: inherit;
 
 	@include transition(color 0.7s);
-	transition: background 1s cubic-bezier(.33,.66,.66,1);
+	transition: background 0.7s cubic-bezier(.33,.66,.66,1);
 
 	&:hover,
 	&:active{
