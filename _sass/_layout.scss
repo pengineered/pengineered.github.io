@@ -39,6 +39,7 @@
 	&:hover,
 	&:active{
 		background-color: transparent;
+		color: $black;
 	}
 }
 
@@ -410,7 +411,7 @@
 }
 
 /*
-   Misc. fixes for highlight underline effect problem
+   Misc. fixes for highlight underline effect/color/bg
    ========================================================================== */
 
 article>h2>a,
@@ -434,6 +435,13 @@ article>h2>a,
 	&:active,
 	&:hover {
 		background: transparent;
+	}
+}
+
+.post-title a{
+	&:active,
+	&:hover{
+		color: $black;
 	}
 }
 

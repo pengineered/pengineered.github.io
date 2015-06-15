@@ -8,8 +8,8 @@ a{
 	border-bottom: 1px solid;
 	color: inherit;
 
-	@include transition(color 0.7s);
-	transition: background 0.7s cubic-bezier(.33,.66,.66,1);
+	@include transition(color 0.5s);
+	transition: background 0.5s cubic-bezier(0,.99,.98,.51);
 
 	&:hover,
 	&:active{
