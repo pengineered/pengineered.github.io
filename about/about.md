@@ -7,7 +7,7 @@ share: false
 
 ![Photo credit: Greg Perko and MIT OEOP](/images/about.jpg)
 
-*Photo credit: [Greg Perko](http://www.perkophoto.com/) and [MIT OEOP](http://oeop.mit.edu/)* 
+<figcaption>Photo credit: [Greg Perko](http://www.perkophoto.com/) and [MIT OEOP](http://oeop.mit.edu/)</figcaption>
 
 Hi! I'm Justin. Please excuse the poor lanyard-work.
 
