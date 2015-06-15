@@ -1,6 +1,10 @@
 # Footer navigation links
 
-- title: Terms
-  url: /terms/
+- title: Home
+  url: /home/
+- title: About
+  url: /about/
 - title: Tags
   url: /blog/tags/
+- title: Terms
+  url: /terms/
