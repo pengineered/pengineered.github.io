@@ -2,17 +2,6 @@
    Links and Tags
    ========================================================================== */
 
-/* Generic links */
-.inner_wrap>.page_content a{
-	@include transition(color 0.6s, background 0.6s);
-	&:hover,
-	&:active{
-		color: $bg-color;
-	}
-	@include links($main-brown);
-}
-
-
 /* links Mixin */
 
 @mixin links($link-color){
@@ -22,6 +11,16 @@
 	&:active {
 		background: $link-color
 	}
+}
+
+/* Generic links */
+.inner_wrap>.page_content a{
+	@include transition(color 0.6s, background 0.6s);
+	&:hover,
+	&:active{
+		color: $bg-color;
+	}
+	@include links($main-brown);
 }
 
 /* Specific Tags */
