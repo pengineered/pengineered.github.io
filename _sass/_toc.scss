@@ -17,7 +17,7 @@
   ul {
     margin-top: $gutter;
     margin-bottom: $gutter;
-    border: 1px solid /*$border-color*/ $black;
+    border: 1px solid /*$border-color*/ #222222;
     @include media($medium) {
       border-radius: $border-radius;
     }
@@ -27,7 +27,8 @@
     @include media($small) {
       @include font-size(16,no,18);
     }
-    border-bottom: 1px solid /*$border-color*/ $black;
+    border: 1px solid /*$border-color*/ #222222;
+    border-bottom: 1px solid /*$border-color*/ #;
     > a {
       display: block;
       padding: 7px 1.618rem;
@@ -46,10 +47,10 @@
     padding: 7px 1.618rem;
     background: $table-stripe-color;
     &:hover {
-      background: mix($black, $border-color, 5%);
+      background: #222222;/*mix($white, $border-color, 5%)*/;
     }
     a {
-      color: $text-color;
+      color: $bg-color/*$text-color*/;
     }
   }
 }
