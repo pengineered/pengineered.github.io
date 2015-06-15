@@ -69,6 +69,10 @@ a {
 	&:active {
 		outline: 0;
 	}
+	&:link,
+	&:visited{
+		color: $text-color;
+	}
 }
 
 /* Quoted text */
