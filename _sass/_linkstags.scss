@@ -14,7 +14,7 @@
 }
 
 /* Generic links */
-.wrap>.inner-wrap a, .tspec a{
+.wrap>.inner-wrap a, .tspec{
 	@include transition(color 0.6s, background 0.6s);
 	&:hover,
 	&:active{
