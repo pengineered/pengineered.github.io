@@ -27,7 +27,7 @@ share: false
   <input type='submit' value='Submit' />
 </form>
 
-Note: The contact form uses a service called [Formspree](http://formspree.io/), which directly sends user input to my inbox without storing any information. More information can be found [here]({{ site.url }}/terms/).
+Note: The contact form uses a service called [Formspree](http://formspree.io/), which directly sends user input to my inbox without storing any information. More information can be found [here]({{ site.url }}/terms/#third-party-services).
 
 ###Alternate methods
 Currently, the best way to contact me is by email:
