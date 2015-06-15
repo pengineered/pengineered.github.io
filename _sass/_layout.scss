@@ -403,8 +403,9 @@
 /*
    Misc. tweaks for color/bg
    ========================================================================== */
-   
+
 .breadcrumbs a{
+	@include transition(background 0.6s);
 	&:active,
 	&:hover {
 		background: $nav-hover;
