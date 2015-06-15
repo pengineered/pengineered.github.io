@@ -17,7 +17,7 @@
   ul {
     margin-top: $gutter;
     margin-bottom: $gutter;
-    border: 1px solid $border-color;
+    border: 1px solid /*$border-color*/ $black;
     @include media($medium) {
       border-radius: $border-radius;
     }
@@ -27,7 +27,7 @@
     @include media($small) {
       @include font-size(16,no,18);
     }
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid /*$border-color*/ $black;
     > a {
       display: block;
       padding: 7px 1.618rem;
@@ -46,7 +46,7 @@
     padding: 7px 1.618rem;
     background: $table-stripe-color;
     &:hover {
-      background: mix($white, $border-color, 5%);
+      background: mix($black, $border-color, 5%);
     }
     a {
       color: $text-color;
