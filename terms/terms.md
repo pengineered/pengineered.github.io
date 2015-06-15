@@ -3,6 +3,7 @@ layout: article
 title: "Terms and Conditions"
 permalink: /terms/
 share: false
+date: 2015-06-14
 modified: 2015-06-15T12:42:13-05:00
 ---
 
