@@ -4,7 +4,7 @@ title: "Terms and Conditions"
 permalink: /terms/
 share: false
 date: 2015-06-14
-modified: 2015-06-15T12:42:13-05:00
+modified: 2015-06-15T13:21:10-05:00
 ---
 
 {% include toc.html %}
@@ -26,7 +26,7 @@ Every page except the root directory[^5] of the website is created through a per
 ### Third Party Services
 The Site uses Google Analytics to map out user interaction within the Site. It reports website trends using cookies and web beacons to collect and store information such as the time of the current visit, the number of previous visits, and the method of referral to the Site, without identifying individual visitors. The privacy policy of Google Analytics can be found [here](https://support.google.com/analytics/answer/6004245).
 
-[Blog posts]({{ site.url }}/blog/) use a commenting platform called [Disqus](https://disqus.com/), which, upon the user's comment submission, use "convenience cookies" to streamline future logins to the Disqus platform. Anonymous tracking for third-party advertisers is disabled. The Site blocks any guest submissions, which means that users must log into a Disqus account should he/she wish to comment on any posts within the Site. Justin reserves the right to moderate certain comments [^6] without notice, under any reason. The privacy policy of Disqus can be found [here](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and the Terms of Service can be found [here](https://help.disqus.com/customer/portal/articles/466260-terms-of-service).
+[Blog posts]({{ site.url }}/blog/) use a commenting platform called [Disqus](https://disqus.com/), which, upon the user's comment submission, use "convenience cookies" to streamline future logins to the Disqus platform. The Site blocks any guest submissions, which means that users must log into a Disqus account should he/she wish to comment on any posts within the Site. Justin reserves the right to moderate certain comments [^6] without notice, under any reason. The privacy policy of Disqus can be found [here](https://help.disqus.com/customer/portal/articles/466259-privacy-policy), and the Terms of Service can be found [here](https://help.disqus.com/customer/portal/articles/466260-terms-of-service).
 
 The [Contact page]({{ site.url }}/contact/) uses a service called [Formspree](http://formspree.io/), which gathers user input (Name, E-mail address, and Message) and sends the information to Justin's e-mail inbox. Formspree does not store any information submitted. Because Formspree uses Mailgun's API, Mailgun's privacy policy (found [here](http://www.mailgun.com/privacy)) may apply. Every user has the option to avoid using the contact form and instead contact Justin directly via the e-mail address(es) provided, should he/she object to using a third party to transmit information.
 
