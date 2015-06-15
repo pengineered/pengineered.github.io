@@ -23,6 +23,10 @@
 	@include notice($primary-color);
 }
 
+.legalnotice{
+	@include font-size(7,19);
+}
+
 /*
    Inverse notice .notice-inverse
    ========================================================================== */
