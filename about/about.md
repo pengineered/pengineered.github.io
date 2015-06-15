@@ -3,6 +3,7 @@ layout: article
 permalink: /about/
 title: "About Me"
 share: false
+modified: 2015-06-15T12:50:51-05:00
 ---
 
 ![Photo credit: Greg Perko and MIT OEOP](/images/about.jpg)
