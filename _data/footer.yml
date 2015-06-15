@@ -1,4 +1,6 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: Terms
+  url: /terms/
+- title: Tags
+  url: /blog/tags/

@@ -5,20 +5,31 @@ title: "Contact"
 share: false
 ---
 
-<form action="https://getsimpleform.com/messages?form_api_token=93f29171f01c720257c7ba107ab9f888" method="post">
+<form action="http://formspree.io/leejustinwill@gmail.com" method="post">
 
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='https://pengineered.github.io/contact/success/' />
+  <input type='hidden' name='_next' value='https://pengineered.github.io/contact/success/' />
 
-  <!-- all your input fields here.... -->
   <h3>Name</h3>
-  <input type='text' name='Name' placeholder="Name"/>
+  <input type='text' name='name' placeholder="Name"/>
 
   <h3>E-mail</h3>
-  <input type='email' name='Email' placeholder="E-mail"/>
+  <input type='email' name='email' placeholder="E-mail"/>
 
   <h3>Message</h3>
   <textarea name='message' placeholder="Message"></textarea>
 
+  <!-- Spam filter -->
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <!-- Subject -->
+  <input type="hidden" name="_subject" value="New submission from contact form!" />
+
   <input type='submit' value='Submit' />
 </form>
+
+Note: The contact form uses a service called [Formspree](http://formspree.io/), which directly sends user input to my inbox without storing any information. More information can be found [here]({{ site.url }}/terms/).
+
+###Alternate methods
+Currently, the best way to contact me is by email:
+
+leejustinwill at [that mail service by google](gmail.com)
