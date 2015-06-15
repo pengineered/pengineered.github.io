@@ -6,6 +6,11 @@
    Page table of contents
    ========================================================================== */
 
+.toc a{
+  border-bottom: medium none transparent;
+  box-shadow: none;
+}
+
 .toc {
   margin-left: -1 * $gutter;
   margin-right: -1 * $gutter;
@@ -38,8 +43,6 @@
       &:focus {
         background: $main-brown /*mix($white, $border-color, 5%)*/;
       }
-      border-bottom: medium none transparent;
-      box-shadow: none;
     }
   }
   h6 {
@@ -54,6 +57,27 @@
       color: $bg-color/*$text-color*/;
     }
     color: $bg-color;
+  }
+}
+
+
+
+#markdown_toc
+  li{
+    ul{
+      border: none;
+      list-style-type:circle;
+      li{
+          border: none;
+          a{
+            color: $text-color;
+            &:hover,
+            &:focus{
+              background:$main-brown;
+            }
+          }
+      }
+    }
   }
 }
 

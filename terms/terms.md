@@ -29,7 +29,7 @@ The Site uses Google Analytics to map out user interaction within the Site. It r
 
 The [Contact page]({{ site.url }}/contact/) uses a service called [Formspree](http://formspree.io/), which gathers user input (Name, E-mail address, and Message) and sends the information to Justin's e-mail inbox. Formspree does not store any information submitted. Because Formspree uses Mailgun's API, Mailgun's privacy policy (found [here](http://www.mailgun.com/privacy)) may apply. Every user has the option to avoid using the contact form and instead contact Justin directly via the e-mail address(es) provided, should he/she object to using a third party to transmit information.
 
-### Privacy
+#### Privacy
 Justin will never share any user's personal information[^7] without prior consent.
 
 [^1]: including but not limited to text, images, audio, videos, and scripts 
