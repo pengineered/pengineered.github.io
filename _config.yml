@@ -8,7 +8,7 @@ locale:
 url: http://jwlee.me
 
 # Jekyll configuration
-
+markdown: kramdown
 sass:
     sass_dir: _sass
     style: compressed
