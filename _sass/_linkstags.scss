@@ -2,18 +2,14 @@
    Links and Tags
    ========================================================================== */
 
-/* Stuff not involving color */
-a{
-	text-decoration: none;
-	border-bottom: 1px solid;
-	color: inherit;
-
+/* Generic links */
+.inner_wrap>.page_content a{
 	@include transition(color 0.6s, background 0.6s);
-
 	&:hover,
 	&:active{
 		color: $bg-color;
 	}
+	@include links($main-brown);
 }
 
 
@@ -26,12 +22,6 @@ a{
 	&:active {
 		background: $link-color
 	}
-}
-
-/* Straight up links */
-
-a{
-	@include links($main-brown);
 }
 
 /* Specific Tags */
