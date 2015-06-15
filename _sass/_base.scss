@@ -57,6 +57,20 @@ ins {
 	border-bottom: 1px solid $text-color;
 }
 
+/* Links */
+
+a {
+	text-decoration: none;
+	color: $text-color;
+	&:focus {
+		@extend %tab-focus;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
 /* Quoted text */
 
 blockquote {
