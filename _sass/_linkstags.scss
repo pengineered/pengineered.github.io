@@ -14,7 +14,7 @@
 }
 
 /* Generic links */
-.inner_wrap>.page_content a{
+.inner_wrap a{
 	@include transition(color 0.6s, background 0.6s);
 	&:hover,
 	&:active{
