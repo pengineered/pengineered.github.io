@@ -32,4 +32,4 @@ Note: The contact form uses a service called [Formspree](http://formspree.io/), 
 ###Alternate methods
 Currently, the best way to contact me is by email:
 
-leejustinwill at [that mail service by google](gmail.com)
+leejustinwill at [that mail service by google](http://www.gmail.com "gmail")
