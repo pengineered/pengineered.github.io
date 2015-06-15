@@ -62,20 +62,20 @@
 
 
 
-#markdown_toc
+#markdown_toc{
   li{
     ul{
       border: none;
       list-style-type:circle;
       li{
-          border: none;
-          a{
-            color: $text-color;
-            &:hover,
-            &:focus{
-              background:$main-brown;
-            }
+        border: none;
+        a{
+          color: $text-color;
+          &:hover,
+          &:focus{
+            background:$main-brown;
           }
+        }
       }
     }
   }
