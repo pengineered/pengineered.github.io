@@ -8,7 +8,7 @@ modified: 2015-06-14T16:09:07-05:00
 
 {% include toc.html %}
 
-<h3>Information</h3>
+<h3>General Disclaimer</h3>
 [This website]({{ site.url }}) ("the Site") is owned by Justin W. Lee ("Justin"), but not all contents[^1] are produced by Justin. Justin does not claim ownership of such contents, and respects the rights of the original owner where possible. Appropriate attributions may be found in forms such as text, hyperlinks, images, audio, or video across the Site.
 
 All content[^1] provided by Justin on the Site is strictly for informational purposes only. Such contents belong solely to Justin and don't necessarily represent the views, positions, agendas, or strategies of his various affiliations[^2]. Justin makes no claims or representations to the truthfulness, accuracy, or completeness of any information found in the Site or by following any links on the Site. Justin will not be liable for any losses, injuries, or damages resulting from the display, use, or application of such information. Justin will not be liable for any omissions or errors in such information, or the availability of such information. 
