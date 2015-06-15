@@ -4,12 +4,12 @@
 
 /* links Mixin */
 
-@mixin links($col){
-	border-bottom-color: $col;
-	box-shadow: inset 0 -2px 0 $col;
+@mixin links($link-color){
+	border-bottom-color: $link-color;
+	box-shadow: inset 0 -2px 0 $link-color;
 	&:hover,
 	&:active {
-		background: $col;
+		background: $link-color;
 	}
 }
 
@@ -20,7 +20,7 @@
 	&:active{
 		color: $bg-color;
 	}
-	@include links($link-u-color);
+	@include links($link-ul-color);
 }
 
 /* Specific Tags */
