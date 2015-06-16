@@ -3,5 +3,6 @@ layout: article
 permalink: /contact/success/
 title: "Thank you!"
 ---
-
-Your message has been delivered. 
+<p class="notice-success">
+	Your message has been successfully delivered.
+</p>
