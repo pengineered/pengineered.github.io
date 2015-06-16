@@ -4,7 +4,7 @@ title: "Terms and Conditions"
 permalink: /terms/
 share: false
 date: 2015-06-14
-modified: 2015-06-15T15:10:26-05:00
+modified: 2015-06-15T22:48:26-05:00
 ---
 
 {% include toc.html %}
@@ -12,10 +12,10 @@ modified: 2015-06-15T15:10:26-05:00
 ## General Disclaimer
 [This website]({{ site.url }}) ("the Site") is owned by Justin W. Lee ("Justin"), but not all contents[^1] are produced by Justin. Justin does not claim ownership of such contents, and respects the rights of the original owner where possible. Appropriate attributions may be found in forms such as text, hyperlinks, images, audio, or video across the Site.
 
-All content[^1] provided by Justin on the Site is strictly for informational purposes only. Such contents belong solely to Justin and don't necessarily represent the views, positions, agendas, or strategies of his various past or current affiliations[^2]. Justin makes no claims or representations to the truthfulness, accuracy, or completeness of any information found in the Site or by following any links on the Site. Justin will not be liable for any losses, injuries, or damages resulting from the display, use, or application of such information. Justin will not be liable for any omissions or errors in such information, or the availability of such information. 
+All content[^1] provided by Justin on the Site is strictly for informational purposes only. Such contents belong solely to Justin and don't necessarily represent the views, positions, agendas, or strategies of his various past or current affiliations[^2]. Any claims or representations made by Justin on the Site are entirely subjective opinions, stances, or views held by him, and should be verified through other means[^3]. Justin makes no claims or representations to the truthfulness, accuracy, or completeness of any information found in the Site or by following any links on the Site. Justin will not be liable for any losses, injuries, or damages resulting from the display, use, or application of such information. Justin will not be liable for any omissions or errors in such information, or for the availability of such information. 
 
 ## Disclosure and Sponsorship
-Justin is not compensated to provide opinion on products, services, websites and various other topics. Any claims or representations about certain certain products, services, or topics are entirely subjective stances held by Justin, and should be verified through other means[^3]. Justin under no obligation to make claims or representations about such products, services, or topics that he does not believe in/agrees with.
+Justin is neither compensated nor obligated to mention or discuss certain products, services, websites or various other topics. Any claims, representations, or endorsements about/of certain products, services, topics, groups, organizations, institutions, or entities are solely based upon Justin's personal opinion.
 
 ## Website Mechanics, Third Party Services, and Privacy
 
@@ -39,4 +39,4 @@ Justin will never share any user's personal information[^7] without prior consen
 [^4]: produced by Michael Rose; freely available under the MIT license, which requires no attribution
 [^5]: The root directory is largely self-produced, with the exception of [Animsition](http://git.blivesta.com/animsition/), the Javascript/CSS plugin responsible for both the initial fade-in animation and the final fade-out animation.
 [^6]: through methods such as deleting
-[^7]: including but not limited to name, e-mail address, and any details obtained through e-mail messages or contact form submissions
+[^7]: including but not limited to name, e-mail address, and any information obtained through e-mail messages or contact form submissions
