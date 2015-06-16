@@ -30,9 +30,9 @@
 	font-family: $alt-font;
 	font-weight: bold;
 
-  		text-shadow: 
-    		1px 1px 0px darken($bg-color, 20%),
-    		3px 3px 0px $bg-color;
+  	text-shadow: 
+    	1px 1px darken($bg-color, 20%),
+    	3px 3px $bg-color;
 
 
 	@include font-size(35,no);
