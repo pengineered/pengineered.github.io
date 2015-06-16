@@ -29,7 +29,15 @@
 	color: $black;
 	font-family: $alt-font;
 	font-weight: bold;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+
+	@mixin txtOffset( $offsetColor: $bg-color, $text-color, $shadeColor: darken($offsetColor, 20%)){
+		color: $text-color;
+  		text-shadow: 
+    		1px 1px $offsetColor,
+    		3px 3px $shadeColor;
+	}
+
+
 	@include font-size(35,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
