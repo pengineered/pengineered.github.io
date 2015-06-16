@@ -30,11 +30,9 @@
 	font-family: $alt-font;
 	font-weight: bold;
 
-	@mixin txtOffset( $offsetColor: $bg-color, $text-color, $shadeColor: darken($offsetColor, 20%)){
-		color: $text-color;
   		text-shadow: 
-    		1px 1px $offsetColor,
-    		3px 3px $shadeColor;
+    		1px 1px darken($bg-color, 20%),
+    		3px 3px $bg-color;
 	}
 
 
