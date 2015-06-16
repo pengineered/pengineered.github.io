@@ -28,7 +28,7 @@
 	text-decoration: none;
 	color: $black;
 	font-family: $alt-font;
-	font-weight: 700;
+	font-weight: bold;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 	@include font-size(35,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
