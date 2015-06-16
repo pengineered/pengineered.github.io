@@ -10,7 +10,7 @@ title: "Welcome!"
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/acrostic.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/animsition.min.css" | prepend: site.baseurl }}">
     <meta name="viewport" content="initial-scale=1, minimum-scale=1" />
@@ -65,7 +65,7 @@ title: "Welcome!"
       	</div>
       </div>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ "/js/jquery.animsition.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/acrostic.js" | prepend: site.baseurl }}"></script>
 	</body>
