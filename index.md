@@ -9,8 +9,7 @@ title: "Welcome!"
 		<title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300|Oxygen:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/acrostic.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/animsition.min.css" | prepend: site.baseurl }}">
     <meta name="viewport" content="initial-scale=1, minimum-scale=1" />
