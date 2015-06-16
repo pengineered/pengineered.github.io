@@ -73,6 +73,7 @@ a:hover:before {
   width: 0.6rem;
   text-align: center;
   font-weight: 400;
+  background-color: #0f0f0f;
 }
 
 .about, .contact, .resume, .projects, .blog, .home, .u, .s, .i, .n{
@@ -81,12 +82,16 @@ a:hover:before {
   position: relative;
 }
 
+.projects, .about, .contact, .blog, .home, .resume{
+  background-color: #fff;
+}
+
 .projects{
-  width: 4rem;
+  width: 3.97rem;
   padding-left: 0.29rem;
 }
 .about{
-  width: 3rem;
+  width: 2.93rem;
   padding-right: 2.23em;
 }
 .contact{
@@ -98,11 +103,11 @@ a:hover:before {
   padding-left: 0.59rem;
 }
 .home{
-  width: 2.8rem;
+  width: 2.73rem;
   padding-right: 2.02rem;
 }
 .resume{
-  width: 3.5rem;
+  width: 3.48rem;
   padding-left: 2.08rem;
 }
 
