@@ -73,12 +73,17 @@ a:hover:before {
   width: 0.6rem;
   text-align: center;
   font-weight: 400;
+  background-color: #0f0f0f;
 }
 
 .about, .contact, .resume, .projects, .blog, .home, .u, .s, .i, .n{
   display: block;
   height: auto;
   position: relative;
+}
+
+.projects, .about, .contact, .blog, .home, .resume{
+  background-color: #fff;
 }
 
 .projects{
@@ -94,7 +99,7 @@ a:hover:before {
   padding-left: 0.62rem;
 }
 .blog{
-  width: 2.35rem;
+  width: 2.37rem;
   padding-left: 0.59rem;
 }
 .home{
