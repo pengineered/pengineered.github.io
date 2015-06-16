@@ -87,27 +87,27 @@ a:hover:before {
 }
 
 .projects{
-  width: 3.97rem;
+  width: 4rem;
   padding-left: 0.357rem;
 }
 .about{
-  width: 2.93rem;
-  padding-right: 2.127rem;
+  width: 3rem;
+  padding-right: 2.13rem;
 }
 .contact{
   width: 3.5rem;
-  padding-left: 0.62rem;
+  padding-left: 0.65rem;
 }
 .blog{
-  width: 2.37rem;
+  width: 2.5rem;
   padding-left: 0.59rem;
 }
 .home{
-  width: 2.73rem;
+  width: 2.75rem;
   padding-right: 1.922rem;
 }
 .resume{
-  width: 3.48rem;
+  width: 3.5rem;
   padding-left: 2.176rem;
 }
 
