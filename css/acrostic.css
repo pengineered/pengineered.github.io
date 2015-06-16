@@ -92,7 +92,7 @@ a:hover:before {
 }
 .about{
   width: 2.93rem;
-  padding-right: 2.28em;
+  padding-right: 2.28rem;
 }
 .contact{
   width: 3.33rem;
@@ -104,11 +104,11 @@ a:hover:before {
 }
 .home{
   width: 2.73rem;
-  padding-right: 2.07rem;
+  padding-right: 2.0rem;
 }
 .resume{
   width: 3.48rem;
-  padding-left: 2.13rem;
+  padding-left: 2.15rem;
 }
 
 .fade{
