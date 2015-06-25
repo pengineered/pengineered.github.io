@@ -26,7 +26,7 @@
 						{% assign Hf = '{{ H | remove:'0' }}' %}
 						{% assign ampm = 'AM' %}
 					{% else %}
-						{% assign HF = '{{ H }}' %}
+						{% assign HF = '10' %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
 					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
@@ -60,7 +60,7 @@
 						{% assign Hf = '{{ H | remove:'0' }}' %}
 						{% assign ampm = 'AM' %}
 					{% else %}
-						{% assign HF = '{{ H }}' %}
+						{% assign HF = '10' %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
 					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
