@@ -20,7 +20,7 @@
 						{% assign Hf = '{{ H | minus: 12 }}' %}
 						{% assign ampm = 'PM' %}
 					{% elsif H == 0 %}
-						{% assign Hf = 12 %}
+						{% assign Hf = '12' %}
 						{% assign ampm = 'AM' %}
 					{% elsif H < 10 %}
 						{% assign Hf = '{{ H | remove:'0' }}' %}
@@ -37,27 +37,34 @@
 		{% if page.modified %}
 			<p>Updated 
 				<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
-					{% assign H = {{ page.modified | date: "%-H" }} %}
-					{% assign d = {{ page.modified | date: "%-d" }} %}
-					{{ page.modified | date: "%B" }} 
+					{% capture cache %}<!-- Whitespace Fix -->
+					{% assign H = '{{ page.modified | date: "%H" }}' %}
+					{% assign d = '{{ page.modified | date: "%-d" }}' %}
 					{% case d %}
   						{% when '1' or '21' or '31' %}
-  							{{ d }}{% raw %}st{% endraw %}
+  							{% assign dsuffix = 'st' %}
   						{% when '2' or '22' %}
-  							{{ d }}{% raw %}nd{% endraw %}
+  							{% assign dsuffix = 'nd' %}
   						{% when '3' or '23' %}
-  							{{ d }}{% raw %}rd{% endraw %}
+  							{% assign dsuffix = 'rd' %}
   						{% else %}
-  							{{ d }}{% raw %}th{% endraw %}
-  					{% endcase %}, {{ page.modified | date: "%Y" }} 
+  							{% assign dsuffix = 'th' %}
+  					{% endcase %}
   					{% if H >= 13 %}
-						{{ H | minus: 12 }}
+						{% assign Hf = '{{ H | minus: 12 }}' %}
 						{% assign ampm = 'PM' %}
-					{% else %}
-						{{ H }}
+					{% elsif H == 0 %}
+						{% assign Hf = '12' %}
 						{% assign ampm = 'AM' %}
-					{% endif %}:
-					{{ page.modified | date: "%M" }} {{ ampm }}
+					{% elsif H < 10 %}
+						{% assign Hf = '{{ H | remove:'0' }}' %}
+						{% assign ampm = 'AM' %}
+					{% else %}
+						{% assign HF = '{{ H }}' %}
+						{% assign ampm = 'AM' %}
+					{% endif %}
+					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
+					{{ page.modified | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.modified | date: "%Y" }} {{ Hf }}:{{ page.modified | date: "%M" }} {{ ampm }}
 				</time>
 			</p>
 		{% endif %}
