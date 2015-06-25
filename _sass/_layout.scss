@@ -181,6 +181,15 @@
 	.page-title {
 		@include fill-parent;
 	}
+
+	.page-meta {
+		p{
+			@include font-size(14,no);
+			font-family: $alt-font;
+			color: lighten($black,60);
+		}
+	}
+
 	@at-root {
 		.page-content {
 			@include fill-parent;
@@ -203,21 +212,13 @@
 			p > a.reversefootnote {
 				border-bottom-width: 0;
 			}
-      .toc li > a {
-       	border-bottom: medium none transparent;
-			box-shadow: none;
-
-      }
+      	.toc li > a {
+       		border-bottom: medium none transparent;
+				box-shadow: none;
+			}
 			.page-footer,
 			.pagination {
 				@include fill-parent;
-			}
-			.page-meta {
-				p{
-					@include font-size(14,no);
-					font-family: $alt-font;
-					color: lighten($black,60);
-				}
 			}
 		}
 	}
