@@ -8,13 +8,13 @@
 					{{ page.date | date: "%B" }} 
 					{% case d %}
   						{% when '1' or '21' or '31' %}
-  							{{ d }}st
+  							{{ d }}{% raw %}st{% endraw %}
   						{% when '2' or '22' %}
-  							{{ d }}nd
+  							{{ d }}{% raw %}nd{% endraw %}
   						{% when '3' or '23' %}
-  							{{ d }}rd
+  							{{ d }}{% raw %}rd{% endraw %}
   						{% else %}
-  							{{ d }}th
+  							{{ d }}{% raw %}th{% endraw %}
   					{% endcase %}, {{ page.date | date: "%Y" }} 
   					{% if H >= 13 %}
 						{{ H | minus: 12 }}
@@ -35,13 +35,13 @@
 					{{ page.modified | date: "%B" }} 
 					{% case d %}
   						{% when '1' or '21' or '31' %}
-  							{{ d }}st
+  							{{ d }}{% raw %}st{% endraw %}
   						{% when '2' or '22' %}
-  							{{ d }}nd
+  							{{ d }}{% raw %}nd{% endraw %}
   						{% when '3' or '23' %}
-  							{{ d }}rd
+  							{{ d }}{% raw %}rd{% endraw %}
   						{% else %}
-  							{{ d }}th
+  							{{ d }}{% raw %}th{% endraw %}
   					{% endcase %}, {{ page.modified | date: "%Y" }} 
   					{% if H >= 13 %}
 						{{ H | minus: 12 }}
