@@ -26,8 +26,8 @@
 						{% assign Hf = {{ H | remove:'0' }} %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
-					{{ page.date | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }} {{ %Z }}
 					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
+					{{ page.date | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }} {{ %Z }}
 				</time>
 			</p>
 		{% endif %}
