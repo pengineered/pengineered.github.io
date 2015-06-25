@@ -4,11 +4,11 @@ title: "Terms and Conditions"
 permalink: /terms/
 share: false
 date: 2015-06-14
-modified: 2015-06-16T11:18:28-05:00
+modified: 2015-06-25T03:01:30-05:00
 showdate: false
 ---
 
-This is a personal website owned and periodically maintained by Justin W. Lee ("Justin"). The use of this website, in any and all forms, constitutes an acceptance of these terms and policies. Effective revision dates are available at the bottom of this page.
+This is a personal website owned and periodically maintained by Justin W. Lee ("Justin"). The use of this website, in any and all forms, constitutes an acceptance of these terms and policies.
 
 {% include toc.html %}
 

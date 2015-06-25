@@ -187,6 +187,7 @@
 			@include font-size(14,no);
 			font-family: $alt-font;
 			color: lighten($black,60);
+			line-height: 1;
 		}
 	}
 

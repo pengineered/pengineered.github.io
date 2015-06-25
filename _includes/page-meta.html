@@ -1,10 +1,25 @@
 {% if page.date %}
 	<div class="page-meta">
 		{% if page.showdate != false %}
-			<p>Published <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time></p>
+			<p>Published 
+				<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
+					{% if H >= 13 %}
+						{% assign Hf = {{ H | minus: 12 }} %}
+						{% assign ampm = 'PM' %}
+					{% else %}
+						{% assign Hf = H %}
+						{% assign ampm = 'AM' %}
+					{% endif %}
+					{{ page.date | date: "%B %d, %Y %Hf:%M %ampm" }}
+				</time>
+			</p>
 		{% endif %}
 		{% if page.modified %}
-			<p>Updated <time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+			<p>Updated 
+				<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
+					{{ page.modified | date: "%B %d, %Y" %H:%M  }}
+				</time>
+			</p>
 		{% endif %}
 	</div><!-- /.page-meta -->
 {% endif %}
