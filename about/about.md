@@ -5,6 +5,7 @@ title: "About Me"
 share: false
 date: 2015-05-15
 modified: 2015-06-15T12:52:50-05:00
+showdate: false
 ---
 
 ![Photo credit: Greg Perko and MIT OEOP](/images/about.jpg)
