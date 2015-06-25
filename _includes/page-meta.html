@@ -5,25 +5,23 @@
 				<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
 					{% assign H = {{ page.date | date: "%-H" }} %}
 					{% assign d = {{ page.date | date: "%-d" }} %}
-					{{ page.date | date: "%B" }} 
 					{% case d %}
   						{% when '1' or '21' or '31' %}
-  							{{ d }}{% raw %}st{% endraw %}
+  							{% assign dsuffix = 'st' %}
   						{% when '2' or '22' %}
-  							{{ d }}{% raw %}nd{% endraw %}
+  							{% assign dsuffix = 'nd' %}
   						{% when '3' or '23' %}
-  							{{ d }}{% raw %}rd{% endraw %}
+  							{% assign dsuffix = 'rd' %}
   						{% else %}
-  							{{ d }}{% raw %}th{% endraw %}
-  					{% endcase %}, {{ page.date | date: "%Y" }} 
+  							{% assign dsuffix = 'th' %}
+  					{% endcase %}
   					{% if H >= 13 %}
-						{{ H | minus: 12 }}
+						{% assign Hf = {{ H | minus: 12 }} %}
 						{% assign ampm = 'PM' %}
 					{% else %}
-						{{ H }}
+						{% assign Hf = H %}
 						{% assign ampm = 'AM' %}
-					{% endif %}:
-					{{ page.date | date: "%M" }} {{ ampm }}
+					{{ page.date | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }}
 				</time>
 			</p>
 		{% endif %}
