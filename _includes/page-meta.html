@@ -22,12 +22,15 @@
 					{% elsif H == 0 %}
 						{% assign Hf = 12 %}
 						{% assign ampm = 'AM' %}
-					{% else %}
+					{% elsif H < 10 %}
 						{% assign Hf = {{ H | remove:'0' }} %}
+						{% assign ampm = 'AM' %}
+					{% else %}
+						{% assign HF = H %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
 					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
-					{{ page.date | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }} {{ %Z }}
+					{{ page.date | date: "%B" }} {{ page.date | date: "%-d" }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }} {{ %Z }}
 				</time>
 			</p>
 		{% endif %}
