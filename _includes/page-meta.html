@@ -5,14 +5,6 @@
 				<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
 					{% assign H = page.date | date: "%-H" %}
 					{% assign d = page.date | date: "%-d" %}
-					{{ page.date | date: "%B %-d, %Y" }}
-					{% case d %}
-  						{% when '1' or '21' or '31' %}{{ d }}st
-  						{% when '2' or '22' %}{{ d }}nd
-  						{% when '3' or '23' %}{{ d }}rd
-  						{% else %}{{ d }}th
-  					{% endcase %}, 
-  					{{ page.date | date: "%Y" }} 
 					{% if H >= 13 %}
 						{% assign Hf = {{ H | minus: 12 }} %}
 						{% assign ampm = 'PM' %}
@@ -20,6 +12,14 @@
 						{% assign Hf = H %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
+					{{ page.date | date: "%B" }}
+					{% case d %}
+  						{% when '1' or '21' or '31' %}{{ d }}st
+  						{% when '2' or '22' %}{{ d }}nd
+  						{% when '3' or '23' %}{{ d }}rd
+  						{% else %}{{ d }}th
+  					{% endcase %}, 
+  					{{ page.date | date: "%Y" }} 
 					{{ Hf }}:
 					{{ page.date | date: "%M" }} 
 					{{ ampm }}
@@ -29,7 +29,7 @@
 		{% if page.modified %}
 			<p>Updated 
 				<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
-					{{ page.modified | date: "%B %d, %Y %H:%M" }}
+					{{ page.modified | date: "%B %-d, %Y" }}
 				</time>
 			</p>
 		{% endif %}
