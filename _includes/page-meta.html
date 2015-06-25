@@ -4,9 +4,9 @@
 			<p>Written 
 				<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
 				{% capture cache %}<!-- Whitespace Fix -->
-					{% assign H = '{{ page.date | date: "%H" }}' %}
-					{% assign d = '{{ page.date | date: "%-d" }}' %}
-					{% case d %}
+					{% assign H0 = '{{ page.date | date: "%H" }}' %}
+					{% assign d0 = '{{ page.date | date: "%-d" }}' %}
+					{% case d0 %}
   						{% when '1' or '21' or '31' %}
   							{% assign dsuffix = 'st' %}
   						{% when '2' or '22' %}
@@ -16,21 +16,21 @@
   						{% else %}
   							{% assign dsuffix = 'th' %}
   					{% endcase %}
-  					{% if H >= 13 %}
-						{% assign Hf = '{{ {{ H }} | minus: 12 }}' %}
+  					{% if H0 >= 13 %}
+						{% assign Hf0 = '{{ H0 | minus: 12 }}' %}
 						{% assign ampm = 'PM' %}
-					{% elsif H == 0 %}
-						{% assign Hf = '12' %}
+					{% elsif H0 == 0 %}
+						{% assign Hf0 = '12' %}
 						{% assign ampm = 'AM' %}
-					{% elsif H < 10 %}
-						{% assign Hf = '{{ {{ H }} | remove:'0' }}' %}
+					{% elsif H0 < 10 %}
+						{% assign Hf0 = '{{ {{ H0 }} | remove:'0' }}' %}
 						{% assign ampm = 'AM' %}
 					{% else %}
-						{% assign HF = '10' %}
+						{% assign Hf0 = '10' %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
 					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
-					{{ page.date | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }}
+					{{ page.date | date: "%B" }} {{ d0 }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf0 }}:{{ page.date | date: "%M" }} {{ ampm }}
 				</time>
 			</p>
 		{% endif %}
@@ -38,9 +38,9 @@
 			<p>Updated 
 				<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
 					{% capture cache %}<!-- Whitespace Fix -->
-					{% assign H = '{{ page.modified | date: "%H" }}' %}
-					{% assign d = '{{ page.modified | date: "%-d" }}' %}
-					{% case d %}
+					{% assign H1 = '{{ page.modified | date: "%H" }}' %}
+					{% assign d1 = '{{ page.modified | date: "%-d" }}' %}
+					{% case d1 %}
   						{% when '1' or '21' or '31' %}
   							{% assign dsuffix = 'st' %}
   						{% when '2' or '22' %}
@@ -50,21 +50,21 @@
   						{% else %}
   							{% assign dsuffix = 'th' %}
   					{% endcase %}
-  					{% if H >= 13 %}
-						{% assign Hf = '{{ {{ H }} | minus: 12 }}' %}
+  					{% if H1 >= 13 %}
+						{% assign Hf1 = '{{ {{ H1 }} | minus: 12 }}' %}
 						{% assign ampm = 'PM' %}
-					{% elsif H == 0 %}
-						{% assign Hf = '12' %}
+					{% elsif H1 == 0 %}
+						{% assign Hf1 = '12' %}
 						{% assign ampm = 'AM' %}
-					{% elsif H < 10 %}
-						{% assign Hf = '{{ {{ H }} | remove:'0' }}' %}
+					{% elsif H1 < 10 %}
+						{% assign Hf1 = '{{ {{ H1 }} | remove:'0' }}' %}
 						{% assign ampm = 'AM' %}
 					{% else %}
-						{% assign HF = '10' %}
+						{% assign Hf1 = '10' %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
 					{% endcapture %}{% assign cache = nil %}<!-- /Whitespace Fix -->
-					{{ page.modified | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.modified | date: "%Y" }} {{ Hf }}:{{ page.modified | date: "%M" }} {{ ampm }}
+					{{ page.modified | date: "%B" }} {{ d1 }}{{ dsuffix }}, {{ page.modified | date: "%Y" }} {{ Hf1 }}:{{ page.modified | date: "%M" }} {{ ampm }}
 				</time>
 			</p>
 		{% endif %}
