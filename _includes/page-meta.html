@@ -17,13 +17,13 @@
   							{% assign dsuffix = 'th' %}
   					{% endcase %}
   					{% if H >= 13 %}
-						{% assign Hf = '{{ H | minus: 12 }}' %}
+						{% assign Hf = '{{ {{ H }} | minus: 12 }}' %}
 						{% assign ampm = 'PM' %}
 					{% elsif H == 0 %}
 						{% assign Hf = '12' %}
 						{% assign ampm = 'AM' %}
 					{% elsif H < 10 %}
-						{% assign Hf = '{{ H | remove:'0' }}' %}
+						{% assign Hf = '{{ {{ H }} | remove:'0' }}' %}
 						{% assign ampm = 'AM' %}
 					{% else %}
 						{% assign HF = '10' %}
@@ -51,13 +51,13 @@
   							{% assign dsuffix = 'th' %}
   					{% endcase %}
   					{% if H >= 13 %}
-						{% assign Hf = '{{ H | minus: 12 }}' %}
+						{% assign Hf = '{{ {{ H }} | minus: 12 }}' %}
 						{% assign ampm = 'PM' %}
 					{% elsif H == 0 %}
 						{% assign Hf = '12' %}
 						{% assign ampm = 'AM' %}
 					{% elsif H < 10 %}
-						{% assign Hf = '{{ H | remove:'0' }}' %}
+						{% assign Hf = '{{ {{ H }} | remove:'0' }}' %}
 						{% assign ampm = 'AM' %}
 					{% else %}
 						{% assign HF = '10' %}
