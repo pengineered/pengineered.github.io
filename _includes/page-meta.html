@@ -5,14 +5,17 @@
 				<time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">
 					{% assign H = {{ page.date | date: "%-H" }} %}
 					{% assign d = {{ page.date | date: "%-d" }} %}
-					{{ page.date | date: "%B" }}
+					{{ page.date | date: "%B" }} 
 					{% case d %}
-  						{% when '1' or '21' or '31' %}{{ d }}st
-  						{% when '2' or '22' %}{{ d }}nd
-  						{% when '3' or '23' %}{{ d }}rd
-  						{% else %}{{ d }}th
-  					{% endcase %}, 
-  					{{ page.date | date: "%Y" }}
+  						{% when '1' or '21' or '31' %}
+  							{{ d }}st
+  						{% when '2' or '22' %}
+  							{{ d }}nd
+  						{% when '3' or '23' %}
+  							{{ d }}rd
+  						{% else %}
+  							{{ d }}th
+  					{% endcase %}, {{ page.date | date: "%Y" }} 
   					{% if H >= 13 %}
 						{{ H | minus: 12 }}
 						{% assign ampm = 'PM' %}
@@ -29,21 +32,20 @@
 				<time datetime="{{ page.modified | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="dateModified">
 					{% assign H = {{ page.modified | date: "%-H" }} %}
 					{% assign d = {{ page.modified | date: "%-d" }} %}
-					{{ page.modified | date: "%B" }}
+					{{ page.modified | date: "%B" }} 
 					{% case d %}
   						{% when '1' or '21' or '31' %}{{ d }}st
   						{% when '2' or '22' %}{{ d }}nd
   						{% when '3' or '23' %}{{ d }}rd
   						{% else %}{{ d }}th
-  					{% endcase %}, 
-  					{{ page.modified | date: "%Y" }}
+  					{% endcase %}, {{ page.modified | date: "%Y" }} 
   					{% if H >= 13 %}
 						{{ H | minus: 12 }}
 						{% assign ampm = 'PM' %}
 					{% else %}
 						{{ H }}
 						{% assign ampm = 'AM' %}
-					{% endif %}: 
+					{% endif %}:
 					{{ page.modified | date: "%M" }} {{ ampm }}
 				</time>
 			</p>
