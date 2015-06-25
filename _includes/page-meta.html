@@ -22,7 +22,7 @@
 						{% assign Hf = H %}
 						{% assign ampm = 'AM' %}
 					{% endif %}
-					{{ page.date | date: "%B" }} {{ d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ Hf }}:{{ page.date | date: "%M" }} {{ ampm }}
+					{{ page.date | date: "%B" }} {{ %d }}{{ dsuffix }}, {{ page.date | date: "%Y" }} {{ %Hf }}:{{ page.date | date: "%M" }} {{ ampm }}
 				</time>
 			</p>
 		{% endif %}
