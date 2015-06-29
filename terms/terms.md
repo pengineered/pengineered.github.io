@@ -4,7 +4,7 @@ title: "Terms and Conditions"
 permalink: /terms/
 share: false
 date: 2015-06-14
-modified: 2015-06-25T03:01:30-05:00
+modified: 2015-06-29T04:56:20-0400
 showdate: false
 ---
 
@@ -20,11 +20,11 @@ All content[^1] provided by Justin on the Site is strictly for informational pur
 ## Disclosure and Sponsorship
 Justin is neither compensated nor obligated to mention or discuss certain products, services, websites or various other topics. Any claims, representations, or endorsements about/of certain products, services, topics, groups, organizations, institutions, or entities are solely based upon Justin's personal opinion.
 
-## Website Mechanics, Third Party Services, and Privacy
+## Website Mechanics, Privacy, and Third Party Services
 
 ### Website Attributions and Mechanics
 
-Every page except the root directory[^4] of the website is created through a personally modified version of the [Skinny Bones theme](https://mmistakes.github.io/skinny-bones-jekyll/)[^5] of a blogging template called [Jekyll](http://jekyllrb.com/). The website itself is hosted through [Github Pages](https://pages.github.com/). The theme's built-in Google Adsense capabilities has been disabled on the Site.
+Every page except the root directory[^4] of the website is created through a personally modified version of the [Skinny Bones theme](https://mmistakes.github.io/skinny-bones-jekyll/)[^5] of a blogging template called [Jekyll](http://jekyllrb.com/). The theme's built-in Google Adsense capabilities has been disabled on the Site.
 
 ### Privacy
 Justin will never share any user's personal information[^6] without prior consent.
