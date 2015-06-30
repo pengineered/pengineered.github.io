@@ -1,8 +1,7 @@
 ---
-layout: article
+layout: page
 permalink: /contact/
 title: "Contact"
-share: false
 ---
 
 <form action="http://formspree.io/leejustinwill@gmail.com" method="post">

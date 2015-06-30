@@ -1,8 +1,7 @@
 ---
-layout: article
+layout: page
 title: "Terms and Conditions"
 permalink: /terms/
-share: false
 date: 2015-06-14
 modified: 2015-06-29T04:56:20-0400
 showdate: false
