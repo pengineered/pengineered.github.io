@@ -11,3 +11,4 @@ title: "Projects"
 </div><!-- /.tiles -->
 {% else %}
 <p>No projects... yet!</p>
+{% endif %}

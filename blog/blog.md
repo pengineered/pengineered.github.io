@@ -11,3 +11,4 @@ title: "Blog"
 </div><!-- /.tiles -->
 {% else %}
 <p>No posts... yet!</p>
+{% endif %}
