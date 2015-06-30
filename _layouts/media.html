@@ -2,6 +2,19 @@
 layout: default
 ---
 <div id="main" role="main">
+	{% assign post = page %}
+    {% if post.tags.size > 0 %}
+      {% capture tags_content %}Posted with {% if post.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}: {% endcapture %}
+      {% for post_tag in post.tags %}
+        {% assign tag = site.data.tags[post_tag] %}
+        {% if tag %}
+          {% capture tags_content_temp %}{{ tags_content }}<a id="{{ post_tag }}" href="{{ site.url }}/blog/tags/{{ post_tag }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+          {% assign tags_content = tags_content_temp %}
+        {% endif %}
+      {% endfor %}
+      {% else %}
+        {% assign tags_content = '' %}
+    {% endif %}
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
 		{% if page.image.feature %}
 		<div class="page-feature">
@@ -15,20 +28,20 @@ layout: default
 		<div class="page-title">
 			<h1>{{ page.title }}</h1>
 		</div>
+		{% include page-meta.html %}
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
 				<hr />
 				<footer class="page-footer">
+					<p id="post-meta">{{ tags_content }}</p>
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}
-					{% include page-meta.html %}
 				</footer><!-- /.footer -->
 				<aside>
 					{% if page.comments == true %}{% include comments.html %}{% endif %}
 				</aside>
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
-		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
 	</article><!-- /.wrap -->
 </div><!-- /#main -->
