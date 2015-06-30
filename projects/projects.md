@@ -10,5 +10,5 @@ title: "Projects"
 	{% endfor %}
 </div><!-- /.tiles -->
 {% else %}
-<p>No projects... yet!</p>
+<p class='notice-brown'>No projects... yet!</p>
 {% endif %}
