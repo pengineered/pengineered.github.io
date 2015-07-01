@@ -22,4 +22,20 @@ layout: default
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
+	{% if site.tags.size > 0 %}
+	<style>
+	{% assign tagcolor = site.data.tags[tag].color %}
+	{% for tag in sortedtags %}
+		{% if tag.color %}
+			#{{ tag }}{
+				border-bottom-color:#{{ tagcolor }};
+				box-shadow:inset 0 -3px 0 #{{ tagcolor }};
+			}
+			#{{ tag }}:hover, #{{ tag }}:active{
+				background:#{{ tagcolor }};
+			}
+   	{% endif %}
+	{% endfor %}
+	</style>
+	{% endif %}
 </div><!-- /#main -->
