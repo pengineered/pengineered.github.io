@@ -16,17 +16,19 @@ title: "Tags"
 		{% endfor %}
 </ul>
 {% assign tagcolor = site.data.tags[tag].color %}
-<style>
-{% if tagcolor %}
-	#{{ tag }}{
-				border-bottom-color:#{{ tagcolor }};
-				box-shadow:inset 0 -3px 0 #{{ tagcolor }};
-			}
-			#{{ tag }}:hover, #{{ tag }}:active{
-				background:#{{ tagcolor }};
-			}
-   	{% endif %}
-</style>
+		<style>
+			{% if tagcolor %}
+				{% for tag in sortedtags %}
+					#{{ tag }}{
+						border-bottom-color:#{{ tagcolor }};
+						box-shadow:inset 0 -3px 0 #{{ tagcolor }};
+					}
+					#{{ tag }}:hover, #{{ tag }}:active{
+						background:#{{ tagcolor }};
+					}
+				{% endfor %}
+   		{% endif %}
+		</style>
 {% else %}
 <p class='notice-brown'>There are no tags.</p>
 {% endif %}
