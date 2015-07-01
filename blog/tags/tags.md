@@ -10,6 +10,8 @@ title: "Tags"
 {% endcapture %}
 {% assign sortedtags = tags | split:' ' | sort %}
 
+<ul>
 {% for tag in sortedtags %}
-  <a id = "{{ tag }}" class='t' href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a>
+  <li><a id = "{{ tag }}" class='t' href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a></li>
 {% endfor %}
+</ul>
