@@ -2,9 +2,11 @@
 
 engineering:
   name: Engineering
+  color: FDB813
 
 test1:
   name: Test 1
+  color: e74c3c
 
 test2:
   name: Test 2

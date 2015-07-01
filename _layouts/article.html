@@ -44,4 +44,18 @@ layout: default
 			</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
 	</article><!-- ./wrap -->
+	<style>
+	{% for post_tag in post.tags %}
+		{% assign tag = site.data.tags[post_tag] %}
+		{% if tag.color %}
+			#{{ post_tag }}{
+				border-bottom-color: #{{ tag.color }};
+				box-shadow: inset 0 -3px 0 #{{ tag.color }};
+			}
+			#{{ post_tag }}:hover, #{{ post_tag }}:active{
+				background: #{{ tag.color }};
+			}
+   	{% endif %}
+   {% endfor %}
+	</style>
 </div><!-- /#main -->
