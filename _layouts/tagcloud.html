@@ -30,9 +30,9 @@ layout: default
 			{% endfor %}
 		{% endcapture %}
 		{% assign sortedtags = tags | split:' ' | sort %}
-		{% assign tagcolor = site.data.tags[tag].color %}
 		<style>
 			{% for tag in sortedtags %}
+				{% assign tagcolor = site.data.tags[tag].color %}
 				{% if tagcolor %}
 					#{{ tag }}{
 						border-bottom-color:#{{ tagcolor }};
