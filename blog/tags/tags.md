@@ -20,9 +20,9 @@ title: "Tags"
 {% endif %}
 
 <style>
+	{% assign tagcolor = site.data.tags[tag].color %}
 	{% for tag in sortedtags %}
 		{% if tag.color %}
-			{% assign tagcolor = site.data.tags[tag].color %}
 			#{{ tag }}{
 				border-bottom-color:#{{ tagcolor }};
 				box-shadow:inset 0 -3px 0 #{{ tagcolor }};
