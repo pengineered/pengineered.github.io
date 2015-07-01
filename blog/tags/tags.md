@@ -3,7 +3,7 @@ layout: archive
 permalink: /blog/tags/
 title: "Tags"
 ---
-{% if site.tags %}
+{% if site.tags.size > 0 %}
 	{% capture tags %}
 		{% for tag in site.tags %}
 			{{ tag[0] }}
