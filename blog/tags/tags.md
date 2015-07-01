@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: tagcloud
 permalink: /blog/tags/
 title: "Tags"
 ---

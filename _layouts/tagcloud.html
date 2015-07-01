@@ -22,4 +22,28 @@ layout: default
 			</div><!-- /.page-content -->
 		</div class="archive-wrap"><!-- /.archive-wrap -->
 	</div><!-- /.wrap -->
+
+	{% if site.tags.size > 0 %}
+		{% capture tags %}
+			{% for tag in site.tags %}
+				{{ tag[0] }}
+			{% endfor %}
+		{% endcapture %}
+		{% assign sortedtags = tags | split:' ' | sort %}
+		{% assign tagcolor = site.data.tags[tag].color %}
+		<style>
+			{% if tagcolor %}
+				{% for tag in sortedtags %}
+					#{{ tag }}{
+						border-bottom-color:#{{ tagcolor }};
+						box-shadow:inset 0 -3px 0 #{{ tagcolor }};
+					}
+					#{{ tag }}:hover, #{{ tag }}:active{
+						background:#{{ tagcolor }};
+					}
+				{% endfor %}
+   		{% endif %}
+		</style>
+	{% endif %}
+
 </div><!-- /#main -->
