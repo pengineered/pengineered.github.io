@@ -10,11 +10,13 @@ title: "Tags"
 		{% endfor %}
 	{% endcapture %}
 	{% assign sortedtags = tags | split:' ' | sort %}
+
 	<ul>
 		{% for tag in sortedtags %}
   			<li><a id = "{{ tag }}" class='t' href="{{ site.url }}/blog/tags/{{ tag }}">{{ site.data.tags[tag].name }}</a></li>
 		{% endfor %}
 	</ul>
+
 	<style>
 	{% for tag in sortedtags %}
 		{% if tag.color %}
@@ -29,6 +31,7 @@ title: "Tags"
    	{% endif %}
 	{% endfor %}
 	</style>
+
 {% else %}
 <p class='notice-brown'>There are no tags.</p>
 {% endif %}
