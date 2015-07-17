@@ -61,7 +61,7 @@ function hov(){
       }, function(){
       $(".e2").css("color", "#946E4F");
     });
-  }, 600);
+  }, 2100);
 }
 function chain(){
   $.when(fade()).then(hov());
