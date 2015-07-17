@@ -17,11 +17,6 @@ a{
   -moz-transition: background-color 350ms ease-out;
   -o-transition: background-color 350ms ease-out;
   transition: background-color 350ms ease-out;
-  cursor:default;
-}
-
-.animsition>.wrapper>div>.fx *{
-  cursor:pointer;
 }
 
 .fx:hover, .fx:active{
