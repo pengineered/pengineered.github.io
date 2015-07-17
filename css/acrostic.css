@@ -18,13 +18,11 @@ a{
   -o-transition: background-color 350ms ease-out;
   transition: background-color 350ms ease-out;
 }
-
-a:hover, a:active{
+.fx:hover, .fx:active{
   background-color: #A7997E;
   color: #E4E4E4;
 }
-
-a:before{
+.fx:before{
   content: "";
   position: absolute;
   width: 100%;
@@ -38,8 +36,7 @@ a:before{
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-
-a:hover:before {
+.fx:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
