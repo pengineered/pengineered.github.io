@@ -20,9 +20,9 @@ function anim(){
   $(document).trigger('anim_complete');
 }
 function fade() {
-  setTimeout(function() {
+  //setTimeout(function() {
     $('.fade').fadeTo("slow", 1)
-  }, 1500);
+  //}, 1500);
   $(document).trigger('fade_complete');
 }
 function fx(){
