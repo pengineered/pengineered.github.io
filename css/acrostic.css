@@ -68,6 +68,9 @@ a:hover:before {
   position: relative;
 }
 
+.animsition>.wrapper>div>a>.fade{
+  display: none;
+}
 
 .name{
   width: 0.6rem;
