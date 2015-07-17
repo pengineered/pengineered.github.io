@@ -25,7 +25,8 @@ function anim(){
 
 function fade() {
   setTimeout(function() {
-    $('.fade').css('display', 'inline-block').fadeTo("slow", 1)
+    /*$('.fade').css('visibility','visible').hide().fadeIn('slow');*/
+    $('.fade').fadeTo("slow", 1)
   }, 1500);
 }
 
@@ -33,7 +34,7 @@ $(document).bind('anim_complete', fade());
 
 $(document).ready(function () {
 	anim();
-  fade();
+    fade();
 });
 
 
