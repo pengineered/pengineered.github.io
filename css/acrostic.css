@@ -20,7 +20,7 @@ a{
   cursor:default;
 }
 
-.animsition>.wrapper>div>.fx{
+.animsition>.wrapper>div>.fx *{
   cursor:pointer;
 }
 
