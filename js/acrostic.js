@@ -17,23 +17,19 @@ function anim(){
     		overlayClass          :   'animsition-overlay-slide',
     		overlayParentElement  :   'body'
 	});	
-  $(document).trigger('anim_complete');
 }
 function fade() {
   //setTimeout(function() {
-    $('.fade').fadeTo("slow", 1)
+    $('.fade').fadeTo("slow", 1);
   //}, 1500);
-  $(document).trigger('fade_complete');
 }
-function fx(){
+function hov(){
   $(".projects > a").addClass("fx");
   $(".about > a").addClass("fx");
   $(".contact > a").addClass("fx");
   $(".blog > a").addClass("fx");
   $(".home > a").addClass("fx");
   $(".resume > a").addClass("fx");
-}
-function hov(){
   $(".projects > a").hover(function(){
     $(".j").css("color", "#000");
     }, function(){
@@ -66,12 +62,9 @@ function hov(){
     $(".e2").css("color", "#946E4F");
   });
 }
-$(document).bind('anim_complete', fade());
-$(document).bind('fade_complete', fx());
-$(document).bind('fade_complete', hov());
+function chain(){
+  $.when(fade()).then(hov());
+}
 $(document).ready(function () {
-	anim();
-  fade();
-  fx();
-  hov();
+	$.when(anim()).then(chain());
 });
