@@ -17,7 +17,13 @@ a{
   -moz-transition: background-color 350ms ease-out;
   -o-transition: background-color 350ms ease-out;
   transition: background-color 350ms ease-out;
+  cursor:default;
 }
+
+.animsition>.wrapper>div>.fx{
+  cursor:pointer;
+}
+
 .fx:hover, .fx:active{
   background-color: #A7997E;
   color: #E4E4E4;
@@ -45,9 +51,11 @@ a{
 
 .j, .u, .s, .t, .i, .n{
   color: #A39082;
+  cursor:text;
 }
 .l, .e, .e2{
   color: #946E4F;
+  cursor:text;
 }
 
 .wrapper{
