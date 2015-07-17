@@ -19,9 +19,9 @@ function anim(){
 	});	
 }
 function fade() {
-  //setTimeout(function() {
+  setTimeout(function() {
     $('.fade').fadeTo("slow", 1);
-  //}, 1500);
+  }, 1500);
 }
 function hov(){
   $(".projects > a").addClass("fx");
