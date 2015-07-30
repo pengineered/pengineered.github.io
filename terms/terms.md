@@ -3,7 +3,7 @@ layout: page
 title: "Terms and Conditions"
 permalink: /terms/
 date: 2015-06-14
-modified: 2015-07-30T12:59:27-04:00
+modified: 2015-07-30T13:01:30-04:00
 showdate: false
 ---
 
