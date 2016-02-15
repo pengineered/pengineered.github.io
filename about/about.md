@@ -11,8 +11,6 @@ showdate: false
 
 <figcaption>Photo credit: <a href='http://www.perkophoto.com/'>Greg Perko</a> and <a href='http://oeop.mit.edu/'>MIT OEOP</a></figcaption>
 
-Hi! I'm Justin. Please excuse the poor lanyard-work.
+Hi! I'm Justin. I'm a first-year at the [North Avenue Trade School](http://www.gatech.edu "Georgia Tech").
 
-As a doofus, daydreamer, and incoming [North Avenue Trade School](http://www.gatech.edu "Georgia Tech") freshman, I'll be documenting [my tragic attempts to learn physics the hard way](/projects), or [anything else](/blog) that comes to mind.
-
-#####Note: This website is currently under construction.
+#####Note: This website is currently (and may indefinitely be) under construction.
