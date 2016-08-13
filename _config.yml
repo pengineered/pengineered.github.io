@@ -1,11 +1,11 @@
 # Site wide configuration
 
 title: Justin Lee
-description: Engineer. Doofus. Pen enthusiast.
+description: Doofus. Pen enthusiast.
 logo: twittercard.jpg# 120x120 px default image used for Twitter summary card
 teaser: teaser.gif# 400x250 px default teaser image used in image archive grid
 locale:
-url: http://justin.lee
+url: http://justinl.ee
 
 # Jekyll configuration
 markdown: kramdown
@@ -30,7 +30,7 @@ owner:
   google:
     ad-client: 
     ad-slot: 
-  bio: Engineer. Pen enthusiast.
+  bio: Doofus. Pen enthusiast.
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname: pengineered
 
