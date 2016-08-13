@@ -25,12 +25,12 @@ $border-radius               	: 3px;
 $white                        : #fff;
 $black                        : #000;
 
-$bg-color                     : #E2DFDA;
+$bg-color                     : #EEEEEE;
 
-$main-brown                   : #A7997E;
+$main-color                   : #A7997E;
 
 $nav-color                    : #A39082;
-$nav-hover                    : $main-brown;
+$nav-hover                    : $main-color;
 
 $body-color                  	: #ebebeb;
 
@@ -40,7 +40,7 @@ $caption-color                : mix($white, $text-color, 25%);
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
-$link-ul-color                 : $main-brown;
+$link-ul-color                 : $main-color;
 $link-color                  	: #222;
 
 $primary-color               	: $black;

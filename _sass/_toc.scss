@@ -41,7 +41,7 @@
       border-left: 2px solid transparent;
       &:hover,
       &:focus {
-        background: $main-brown /*mix($white, $border-color, 5%)*/;
+        background: $main-color /*mix($white, $border-color, 5%)*/;
       }
     }
   }
@@ -51,7 +51,7 @@
     background: #222222/*$table-stripe-color*/;
     @include transition(background 0.5s);
     &:hover {
-      background: $main-brown;/*mix($white, $border-color, 5%)*/;
+      background: $main-color;/*mix($white, $border-color, 5%)*/;
     }
     a {
       color: $bg-color/*$text-color*/;
