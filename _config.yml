@@ -5,7 +5,7 @@ description: Engineer. Doofus. Pen enthusiast.
 logo: twittercard.jpg# 120x120 px default image used for Twitter summary card
 teaser: teaser.gif# 400x250 px default teaser image used in image archive grid
 locale:
-url: http://jwlee.me
+url: http://justin.lee
 
 # Jekyll configuration
 markdown: kramdown
@@ -16,7 +16,7 @@ sass:
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
-highlighter: pygments
+highlighter: rouge
 gems:
 
   - jekyll-sitemap
